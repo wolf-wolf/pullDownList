@@ -1,0 +1,27 @@
+{
+  "name": "pull_down_list",
+  "version": "1.0.0",
+  "description": "auto close",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolf-wolf/pullDownList.git"
+  },
+  "keywords": [
+    "pull-down",
+    "pullDown"
+  ],
+  "author": "hunter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wolf-wolf/pullDownList/issues"
+  },
+  "homepage": "https://github.com/wolf-wolf/pullDownList#readme",
+  "dependencies": {
+    "angular": "^1.5.9",
+    "jQuery": "^1.7.4"
+  }
+}

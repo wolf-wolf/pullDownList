@@ -1,0 +1,10 @@
+<div class="main" tabindex="-1" ng-blur="closeList($event)" ng-click="toggleList($event)">
+    <h4 class="open-btn">选择列表2</h4>
+    <div class="list-wrapper" ng-show="flag.showList">
+        <ul class="list">
+            <li class="item" ng-repeat="item in list" ng-click="selectItem($event,item)">
+                <span class="item-name" ng-bind="item.name"></span>
+            </li>
+        </ul>
+    </div>
+</div>

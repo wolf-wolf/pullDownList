@@ -1,0 +1,28 @@
+body {
+    position: relative;
+}
+
+.wrapper {
+    padding: 100px 50px;
+}
+
+.part {
+    border: 1px dotted #6b9596;
+    margin-bottom: 50px;
+}
+
+.part-title {
+    margin-left: 20px;
+    padding: 5px 15px;
+    border-radius: 4px;
+    border: 1px dotted #6b9596;
+}
+
+.result-panel {
+    font-size: 13px;
+    color: #999;
+    height: 30px;
+    margin: 20px auto;
+    line-height: 30px;
+    text-align: center;
+}

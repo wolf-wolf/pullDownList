@@ -1,0 +1,10 @@
+<div class="main">
+    <button class="open-btn" ng-click="toggleList($event)">选择列表1</button>
+    <div class="list-wrapper" ng-show="flag.showList">
+        <ul class="list">
+            <li class="item" ng-repeat="item in list" ng-click="selectItem($event,item)">
+                <span class="item-name" ng-bind="item.name"></span>
+            </li>
+        </ul>
+    </div>
+</div>

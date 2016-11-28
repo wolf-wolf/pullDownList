@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>下拉列表</title>
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="pullDown1/pullDown1.css">
+    <link rel="stylesheet" type="text/css" href="pullDown2/pullDown2.css">
+</head>
+
+<body ng-app="app" ng-controller="dropDownCtrl">
+    <div class="wrapper">
+        <fieldset class="part">
+            <legend class="part-title">使用隐藏的遮罩层</legend>
+            <section>
+                <h3 class="result-panel">{{selected1?'result1:'+selected1.name:"在这里显示选择结果"}}</h3>
+                <pull-down1 class="pullDown1" selected="selected1" list="list1"></pull-down1>
+            </section>
+        </fieldset>
+        <fieldset class="part">
+            <legend class="part-title">使用tabIndex</legend>
+            <section>
+                <h3 class="result-panel">{{selected2?'result2:'+selected2.name:"在这里显示选择结果"}}</h3>
+                <pull-down2 class="pullDown1" selected="selected2" list="list2"></pull-down2>
+            </section>
+        </fieldset>
+        <fieldset class="part">
+            <legend class="part-title">简单实用document监听click事件</legend>
+            <section>
+                <h3 class="result-panel">{{selected3?'result3:'+selected3.name:"在这里显示选择结果"}}</h3>
+                <pull-down3 class="pullDown1" selected="selected3" list="list3"></pull-down3>
+            </section>
+        </fieldset>
+    </div>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/jQuery/tmp/jquery.js"></script>
+    <script src="main.js"></script>
+    <script src="pullDown1/pullDown1.js"></script>
+    <script src="pullDown2/pullDown2.js"></script>
+    <script src="pullDown3/pullDown3.js"></script>
+</body>
+
+</html>
